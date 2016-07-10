@@ -263,54 +263,58 @@ function create_config( )
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[
-Realm Commands:
-#creategroup [Name]
-Create a group
-#createrealm [Name]
-Create a realm
-#setname [Name]
-Set realm name
-#setabout [group|sgroup] [GroupID] [Text]
-Set a group's about text
+دستورات گروه:
+#creategroup [نام]
+ساخت یک گروه
+#createrealm [نام]
+ساخت یک قلمرو
+#setname [نام]
+تنظیم نام گروه
+#setabout [گروه|سوپرگروه] [GroupID] [Text]
+تنظیمات اطلاعات گروه
 #setrules [GroupID] [Text]
-Set a group's rules
+تنظیم قوانین یک گروه
 #lock [GroupID] [setting]
-Lock a group's setting
+قفل کردن تنظیمات یک گروه
 #unlock [GroupID] [setting]
-Unock a group's setting
+بازکردن قفل تنظیمات یک گروه
 #settings [group|sgroup] [GroupID]
-Set settings for GroupID
+تنظیم تنظیمات برای آیدی گروه
 #wholist
-Get a list of members in group/realm
+دریافت لیست افراد گروه یا قلمرو
 #who
-Get a file of members in group/realm
+دریافت فایل لیست افراد
 #type
-Get group type
-#addadmin [id|username]
-Promote an admin by id OR username *Sudo only
-#removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+دریافت نوع گروه
+#addadmin [آیدی|نام کاربری]
+ترفیع فردی با آیدی و نام کاربری *فقط سودو
+#removeadmin [آیدی|نام کاربری]
+تنزل فردی با آیدی و نام کاربری *فقط سودو
 #list groups
-Get a list of all groups
+دریافت یک لیست از گروه ها
 #list realms
-Get a list of all realms
+دریافت یک لیست از قلمرو ها
 #support
-Promote user to support
+ترفیع فردی به پشتیبانی
 #-support
-Demote user from support
+تنزل فردی از پشتیبانی
 #log
-Get a logfile of current group or realm
-#broadcast [text]
-#broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
-#bc [group_id] [text]
-#bc 123456789 Hello !
-This command will send text to [group_id]
-**You can use "#", "!", or "/" to begin all commands
-*Only admins and sudo can add bots in group
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-*Only admins and sudo can use res, setowner, commands
+دریافت لوگ گروه و یا قلمرو فعلی
+#broadcast [متن]
+#broadcast سلام !
+ارسال متنی به تمامی گروه ها
+فقط سودوها می توانند این دستورات را اجرا کنند.
+#bc [group_id] [متن]
+#bc 123456789 سلام !
+اين دستور ارسال خواهد شد به [ايدي گروه مورد نظر]
+* * شما می‌توانید از "#" , "!" , "/"  و یا " / " برای همه فرمان‌ها استفاده كنيد.
+* فقط admins و sudo می‌توانند كه ربات هايي را در گروه ادد كنند.
+* فقط admins و sudo می‌تواند از ممنوعیت ، unban ، newlink ، setphoto ، setname ، قفل كردن و بازكردن ، تنظيم قوانین و تنظيم توضيحات و درباره و تظيمات دستور ها استفاده كنند.
+* فقط admins و sudo می‌توانند از  فرمان‌های setowner ، و اطلاعات يوزر موردنظر و دستورات خاص استفاده كنند.
+
+🔰Spiran_TG🔰@SPIRAN_CHANNEL
+FOLLOW US...
+SPIRAN TEAM😘
 ]],
     help_text = [[
 Commands list :
