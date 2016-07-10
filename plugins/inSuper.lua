@@ -122,7 +122,7 @@ local channel_id = "👤ایدی: "..result.peer_id.."\n"
 if result.username then
 	channel_username = "یوزرنیم: @"..result.username
 else
-	channel_username = "@Part_Team"
+	channel_username = "@SPIRAN_CHANNEL"
 end
 local text = title..admin_num..user_num..kicked_num..channel_id..channel_username
     send_large_msg(cb_extra.receiver, text)
@@ -1075,7 +1075,7 @@ function show_supergroup_settingsmod(msg, target)
 	end
   
   local settings = data[tostring(target)]['settings']
-  local text = "تنظیمات سوپر گروه\nقفل لینک: "..settings.lock_link.."\nقفل عدد: "..settings.lock_number.."\nقفل انگلیسی: "..settings.english.."\nقفل فحش: "..settings.fosh.."\nقفل لفت: "..settings.leave.."\nقفل ریپلی: "..settings.reply.."\nقفل فرواد: "..settings.fwd.."\nقفل شماره: "..settings.lock_contacts.."\nقفل فلود:"..settings.flood.."\nحساسیت:"..NUM_MSG_MAX.."\nقفل تگ : "..settings.tag.."\nقفل اسپم:"..settings.lock_spam.."\nقفل عربی :"..settings.lock_arabic.."\nقفل اعضا:"..settings.lock_member.."\nقفل  ار تی ال:"..settings.lock_rtl.."\nقفل سرویس تلگرام:"..settings.lock_tgservice.."\nقفل استیکر:"..settings.lock_sticker.."\nحالت گروه:"..settings.public.."\nسخت گیرانه:"..settings.strict.."\nقفل ربات: "..bots_protection.."\nقفل اپراتور: "..settings.operator.."\nقفل همه: "..settings.all.."\n@Part_Team"
+  local text = "تنظیمات سوپر گروه\nقفل لینک: "..settings.lock_link.."\nقفل عدد: "..settings.lock_number.."\nقفل انگلیسی: "..settings.english.."\nقفل فحش: "..settings.fosh.."\nقفل لفت: "..settings.leave.."\nقفل ریپلی: "..settings.reply.."\nقفل فرواد: "..settings.fwd.."\nقفل شماره: "..settings.lock_contacts.."\nقفل فلود:"..settings.flood.."\nحساسیت:"..NUM_MSG_MAX.."\nقفل تگ : "..settings.tag.."\nقفل اسپم:"..settings.lock_spam.."\nقفل عربی :"..settings.lock_arabic.."\nقفل اعضا:"..settings.lock_member.."\nقفل  ار تی ال:"..settings.lock_rtl.."\nقفل سرویس تلگرام:"..settings.lock_tgservice.."\nقفل استیکر:"..settings.lock_sticker.."\nحالت گروه:"..settings.public.."\nسخت گیرانه:"..settings.strict.."\nقفل ربات: "..bots_protection.."\nقفل اپراتور: "..settings.operator.."\nقفل همه: "..settings.all.."\n@SPIRAN_CHANNEL"
   return text
 end
 
@@ -1778,7 +1778,7 @@ local function run(msg, matches)
 				resolve_username(username,  callbackres, cbres_extra)
 			else
 				savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup ID")
-				return "👥نام سوپر گروه:" ..string.gsub(msg.to.print_name, "_", " ").. "\n👥ایدی سوپر گروه:"..msg.from.id.."\n👤ایدی کاربری:"..msg.to.id.."\n👤یوزرنیم:@"..msg.from.username.."\n@Part_Team"
+				return "👥نام سوپر گروه:" ..string.gsub(msg.to.print_name, "_", " ").. "\n👥ایدی سوپر گروه:"..msg.from.id.."\n👤ایدی کاربری:"..msg.to.id.."\n👤یوزرنیم:@"..msg.from.username.."\n@SPIRAN_CHANNEL"
 			end
 		end
 
@@ -1829,7 +1829,7 @@ local function run(msg, matches)
 				return "شما میتوانید بادستور[لینک جدید]لینک جدید بسازید"
 			end
 			savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested group link ["..group_link.."]")
-			return "نام گروه:[" ..string.gsub(msg.to.print_name, "_", " ").. "]\nلینک سوپرگروه:\n"..group_link.."\n@Part_Team"
+			return "نام گروه:[" ..string.gsub(msg.to.print_name, "_", " ").. "]\nلینک سوپرگروه:\n"..group_link.."\n@SPIRAN_CHANNEL"
 		end
 
 		if matches[1] == "invite" and is_sudo(msg) then
