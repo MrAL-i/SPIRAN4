@@ -262,8 +262,8 @@ function create_config( )
     sudo_users = {95837751},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
-    help_text_realm = [[
-دستورات گروه :
+    help_text_realm = [[دستورات گروه :
+🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑
 #creategroup [نام]
 ساخت یک گروه
 #createrealm [نام]
@@ -311,13 +311,13 @@ function create_config( )
 * فقط admins و sudo می‌توانند كه ربات هايي را در گروه ادد كنند.
 * فقط admins و sudo می‌تواند از ممنوعیت ، unban ، newlink ، setphoto ، setname ، قفل كردن و بازكردن ، تنظيم قوانین و تنظيم توضيحات و درباره و تظيمات دستور ها استفاده كنند.
 * فقط admins و sudo می‌توانند از  فرمان‌های setowner ، و اطلاعات يوزر موردنظر و دستورات خاص استفاده كنند.
-
+🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑
 🔰Spiran_TG🔰@SPIRAN_CHANNEL
 FOLLOW US...
 SPIRAN TEAM😘
 ]],
-    help_text = [[
-راهنمای دستورات :
+    help_text = [[راهنمای دستورات :
+🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑
 #kick [نام کاربری|آیدی]
 شما می توانید با ریپلای کردن هم انجام دهید.
 #who
@@ -406,7 +406,7 @@ SPIRAN TEAM😘
 * فقط admins و sudo می‌توانند كه ربات هايي را در گروه ادد كنند.
 * فقط admins و sudo می‌تواند از ممنوعیت ، unban ، newlink ، setphoto ، setname ، قفل كردن و بازكردن ، تنظيم قوانین و تنظيم توضيحات و درباره و تظيمات دستور ها استفاده كنند.
 * فقط admins و sudo می‌توانند از  فرمان‌های setowner ، و اطلاعات يوزر موردنظر و دستورات خاص استفاده كنند.
-
+🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑
 🔰Spiran_TG🔰@SPIRAN_CHANNEL
 FOLLOW US...
 SPIRAN TEAM😘
