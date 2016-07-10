@@ -43,6 +43,7 @@ git pull
 * * *
 
 برای دریافت پی دی اف آموزش کامل و حرفه ای ساخت ربات ضداسپم مستر علی می توانید با دو آیدی زیر در ارتباط باشید... آموزش کاملا رایگان است.
+
 @Mr_AL_i
 @MrALi_PV_Bot
 
@@ -50,7 +51,7 @@ git pull
 
 # Our team!
 
-[άQά </🅰ιɪ>](https://github.com/) ([Telegram)(https://telegram.me/Mr_AL_i)
+[άQά </🅰ιɪ>](https://github.com/) ([Telegram](https://telegram.me/Mr_AL_i)
 
 [Mohammad](https://telegram.me/)
 
