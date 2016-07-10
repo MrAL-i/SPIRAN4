@@ -257,7 +257,7 @@ Our channels
 @iranseed [persian]
 
 Our website 
-http://teleseed.seedteam.org/
+UNKNOWN
 ]],
     help_text_realm = [[
 Realm Commands:
