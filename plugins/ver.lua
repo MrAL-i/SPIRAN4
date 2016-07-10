@@ -1,21 +1,19 @@
 do
 
 function run(msg, matches)
-  return [[ B L A C K +
+  return [[ SPIRAN Bot
 -----------------------------------
 A new bot for manage your Supergroups.
 -----------------------------------
-@Black_CH #Channel
+@SPIRAN_CHANNEL
 -----------------------------------
-@MehdiHS #Developer
+@Mr_AL_i #Developer
 -----------------------------------
-@YflQw #Manager
+@Developer_001 #Manager
 -----------------------------------
-@Mr_Surena #Manager
+Bot number : UNKNOWN
 -----------------------------------
-Bot number : +19092545429
------------------------------------
-Bot version : 6.7 ]]
+Bot version : 1.0 ]]
 end
 
 return {
