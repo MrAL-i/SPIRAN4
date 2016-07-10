@@ -263,7 +263,7 @@ function create_config( )
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[
-دستورات گروه:
+دستورات گروه :
 #creategroup [نام]
 ساخت یک گروه
 #createrealm [نام]
@@ -317,81 +317,81 @@ FOLLOW US...
 SPIRAN TEAM😘
 ]],
     help_text = [[
-Commands list :
-#kick [username|id]
-You can also do it by reply
+راهنمای دستورات :
+#kick [نام کاربری|آیدی]
+شما می توانید با ریپلای کردن هم انجام دهید.
 #who
-Members list
+لیست افراد
 #modlist
-Moderators list
-#promote [username]
-Promote someone
-#demote [username]
-Demote someone
+لیست مدبران
+#promote [نام کاربری]
+ترفیع فردی
+#demote [نام کاربری]
+تنزل فردی
 #kickme
-Will kick user
+مرا اخراج کن
 #about
-Group description
+توضیحات گروه
 #setname [name]
-Set group name
+تنظیم نام گروه
 #rules
-Group rules
+قوانین گروه
 #id
-return group id or user id
+دریافت آیدی گروه و یا آیدی فردی
 #help
-Returns help text
+دریافت متن راهنما
 #lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Lock group settings
+قفل کردن تنظیمات بالا
 *rtl: Kick user if Right To Left Char. is in name*
 #unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Unlock group settings
+باز کردن قفل تنظیمات بالا
 *rtl: Kick user if Right To Left Char. is in name*
 #mute [all|audio|gifs|photo|video]
-mute group message types
+مات یا سایلنت کردن موارد بالا
 *If "muted" message type: user is kicked if message type is posted 
 #unmute [all|audio|gifs|photo|video]
-Unmute group message types
+آنمات کردن موارد بالا
 *If "unmuted" message type: user is not kicked if message type is posted 
 #set rules <text>
-Set <text> as rules
+تنظیم قوانین گروه
 #set about <text>
-Set <text> as about
+تنظیم درباره ی گروه
 #settings
-Returns group settings
+تنظیمات
 #muteslist
-Returns mutes for chat
+دریافت چیز های مات شده
 #muteuser [username]
-Mute a user in chat
+مات فردی در چت
 *user is kicked if they talk
 *only owners can mute | mods and owners can unmute
 #mutelist
-Returns list of muted users in chat
+لیست افراد مات شده در چت
 #newlink
-create/revoke your group link
+ساخت یا تعویض لینک گروه
 #link
-returns group link
+دریافت لینک گروه
 #owner
-returns group owner id
-#setowner [id]
-Will set id as owner
+دریافت آیدی صاحب گروه
+#setowner [آیدی]
+تنظیم آیدی به عنوان صاحب گروه
 #setflood [value]
-Set [value] as flood sensitivity
+تنظیم حساسیت فلود
 #stats
-Simple message statistics
+پیام ساده آمار
 #save [value] <text>
-Save <text> as [value]
+تنظیم متن موردنظر به عنوان نوشته اضافی
 #get [value]
-Returns text of [value]
+دریافت متن نوشته اضافی
 #clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-#res [username]
-returns user id
+پاک کردن موارد بالا
+#res [نام کاربری]
+دریافت آیدی فردی
 "!res @username"
 #log
-Returns group logs
+دریافت لوگ گروه
 #banlist
-will return group ban list
-other commands :
+دریافت لیست بن شده ها
+دیگر دستورات :
 #vc [text]
 #tosticker
 #tophoto
@@ -402,10 +402,14 @@ other commands :
 #insta [id|video/photo link]
 #tosupport
 #version
-**You can use "#", "!", or "/" to begin all commands
-*Only owner and mods can add bots in group
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-*Only owner can use res,setowner,promote,demote and log commands
+* * شما می‌توانید از "#" , "!" , "/"  و یا " / " برای همه فرمان‌ها استفاده كنيد.
+* فقط admins و sudo می‌توانند كه ربات هايي را در گروه ادد كنند.
+* فقط admins و sudo می‌تواند از ممنوعیت ، unban ، newlink ، setphoto ، setname ، قفل كردن و بازكردن ، تنظيم قوانین و تنظيم توضيحات و درباره و تظيمات دستور ها استفاده كنند.
+* فقط admins و sudo می‌توانند از  فرمان‌های setowner ، و اطلاعات يوزر موردنظر و دستورات خاص استفاده كنند.
+
+🔰Spiran_TG🔰@SPIRAN_CHANNEL
+FOLLOW US...
+SPIRAN TEAM😘
 ]],
 	help_text_super =[[
 SuperGroup Commands:
