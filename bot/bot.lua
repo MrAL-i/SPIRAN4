@@ -260,86 +260,8 @@ Our website
 UNKNOWN
 ]],
     help_text_realm = [[
-Realm Commands:
-
-!creategroup [Name]
-Create a group
-
-!createrealm [Name]
-Create a realm
-
-!setname [Name]
-Set realm name
-
-!setabout [group|sgroup] [GroupID] [Text]
-Set a group's about text
-
-!setrules [GroupID] [Text]
-Set a group's rules
-
-!lock [GroupID] [setting]
-Lock a group's setting
-
-!unlock [GroupID] [setting]
-Unock a group's setting
-
-!settings [group|sgroup] [GroupID]
-Set settings for GroupID
-
-!wholist
-Get a list of members in group/realm
-
-!who
-Get a file of members in group/realm
-
-!type
-Get group type
-
-!kill chat [GroupID]
-Kick all memebers and delete group
-
-!kill realm [RealmID]
-Kick all members and delete realm
-
-!addadmin [id|username]
-Promote an admin by id OR username *Sudo only
-
-!removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
-
-!list groups
-Get a list of all groups
-
-!list realms
-Get a list of all realms
-
-!support
-Promote user to support
-
-!-support
-Demote user from support
-
-!log
-Get a logfile of current group or realm
-
-!broadcast [text]
-!broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
-
-!bc [group_id] [text]
-!bc 123456789 Hello !
-This command will send text to [group_id]
-
-
-**You can use "#", "!", or "/" to begin all commands
-
-
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-دستورات گروه:
+دستورات گروه :
+🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑
 #creategroup [نام]
 ساخت یک گروه
 #createrealm [نام]
@@ -362,6 +284,10 @@ This command will send text to [group_id]
 دریافت فایل لیست افراد
 #type
 دریافت نوع گروه
+!kill chat [آیدی گروه]
+اخراج تمامی افراد و پاک کردن گروه
+!kill realm [RealmID]
+اخراج تمامی افراد و پاک کردن قلمرو
 #addadmin [آیدی|نام کاربری]
 ترفیع فردی با آیدی و نام کاربری *فقط سودو
 #removeadmin [آیدی|نام کاربری]
@@ -387,14 +313,14 @@ This command will send text to [group_id]
 * فقط admins و sudo می‌توانند كه ربات هايي را در گروه ادد كنند.
 * فقط admins و sudo می‌تواند از ممنوعیت ، unban ، newlink ، setphoto ، setname ، قفل كردن و بازكردن ، تنظيم قوانین و تنظيم توضيحات و درباره و تظيمات دستور ها استفاده كنند.
 * فقط admins و sudo می‌توانند از  فرمان‌های setowner ، و اطلاعات يوزر موردنظر و دستورات خاص استفاده كنند.
-
+🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑
 🔰Spiran_TG🔰@SPIRAN_CHANNEL
 FOLLOW US...
 SPIRAN TEAM😘
-*Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
 راهنمای دستورات :
+🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑
 #kick [نام کاربری|آیدی]
 شما می توانید با ریپلای کردن هم انجام دهید.
 #who
@@ -483,151 +409,115 @@ SPIRAN TEAM😘
 * فقط admins و sudo می‌توانند كه ربات هايي را در گروه ادد كنند.
 * فقط admins و sudo می‌تواند از ممنوعیت ، unban ، newlink ، setphoto ، setname ، قفل كردن و بازكردن ، تنظيم قوانین و تنظيم توضيحات و درباره و تظيمات دستور ها استفاده كنند.
 * فقط admins و sudo می‌توانند از  فرمان‌های setowner ، و اطلاعات يوزر موردنظر و دستورات خاص استفاده كنند.
-
+🔑🔑🔑🔑🔑🔑🔑🔑🔑🔑
 🔰Spiran_TG🔰@SPIRAN_CHANNEL
 FOLLOW US...
 SPIRAN TEAM😘
 ]],
 	help_text_super =[[
-SuperGroup Commands:
-
-!info
-Displays general info about the SuperGroup
-
-!admins
-Returns SuperGroup admins list
-
-!owner
-Returns group owner
-
-!modlist
-Returns Moderators list
-
-!bots
-Lists bots in SuperGroup
-
-!who
-Lists all users in SuperGroup
-
-!block
-Kicks a user from SuperGroup
-*Adds user to blocked list*
-
-!ban
-Bans user from the SuperGroup
-
-!unban
-Unbans user from the SuperGroup
-
-!id
-Return SuperGroup ID or user id
+💢 راهنمای دستورات سوپرگروه اسپیران :
+💢#info
+نمایش اطلاعات کلی در مورد SuperGroup
+💢#admins
+ليست ادمین های سوپرگروه
+💢#owner
+صاحب گروه
+💢#modlist
+ليست مديران
+💢#bots
+لیست رباتها در SuperGroup
+💢#who
+لیست تمام کاربران در SuperGroup
+💢#kick
+اخراج فردی از سوپرگروه
+* اضافه کردن فردی به لیست مسدود شده ها*
+💢#ban
+ممنوعیت کاربر از SuperGroup
+💢#unban
+رفع ممنوعیت کاربر از SuperGroup
+💢#id
+دریافت آیدی سوپرگروه و یا آیدی فردی
 *For userID's: !id @username or reply !id*
-
-!id from
-Get ID of user message is forwarded from
-
-!kickme
-Kicks user from SuperGroup
-*Must be unblocked by owner or use join by pm to return*
-
-!setowner
-Sets the SuperGroup owner
-
-!promote [username|id]
-Promote a SuperGroup moderator
-
-!demote [username|id]
-Demote a SuperGroup moderator
-
-!setname
-Sets the chat name
-
-!setphoto
-Sets the chat photo
-
-!setrules
-Sets the chat rules
-
-!setabout
-Sets the about section in chat info(members list)
-
-!save [value] <text>
-Sets extra info for chat
-
-!get [value]
-Retrieves extra info for chat by value
-
-!newlink
-Generates a new group link
-
-!link
-Retireives the group link
-
-!rules
-Retrieves the chat rules
-
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Lock group settings
+💢#id from
+دریافت آیدی فردی که از او پیام فوروارد شده
+💢#setowner
+تنظیم صاحب گروه
+💢#promote [username|id]
+ترفیع فردی با نام کاربری و یا آیدی
+💢#demote [username|id]
+تنزل فردی با نام کاربری و یا آیدی
+💢#setname
+تنظیم نام چت
+💢#setrules
+تنظیم قوانین چت
+💢#setabout
+تنظیم اطلاعات گروه
+💢#newlink
+ساخت و تعویض لینک گروه
+💢#link
+دریافت لینک گروه
+💢#rules
+دریافت قوانین گروه
+💢#lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tgservice]
+قفل کردن موارد بالا
 *rtl: Delete msg if Right To Left Char. is in name*
 *strict: enable strict settings enforcement (violating user will be kicked)*
-
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Unlock group settings
+💢#unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tgservice]
+بازکردن قفل موارد بالا
 *rtl: Delete msg if Right To Left Char. is in name*
 *strict: disable strict settings enforcement (violating user will not be kicked)*
-
-!mute [all|audio|gifs|photo|video|service]
-mute group message types
+💢#mute [all|audio|gifs|photo|video]
+مات و یا سایلنت کردن موارد بالا
 *A "muted" message type is auto-deleted if posted
-
-!unmute [all|audio|gifs|photo|video|service]
-Unmute group message types
+💢#unmute [all|audio|gifs|photo|video]
+آنمات کردن موارد بالا
 *A "unmuted" message type is not auto-deleted if posted
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!settings
-Returns chat settings
-
-!muteslist
-Returns mutes for chat
-
-!muteuser [username]
-Mute a user in chat
+💢#setflood [value]
+تنظیم حساسیت فلود
+💢#settings
+دریافت تنظیمات چت
+💢#muteslist
+لیست چیز های مات شده
+💢#muteuser [username]
+مات کردن فردی در چت
 *If a muted user posts a message, the message is deleted automaically
 *only owners can mute | mods and owners can unmute
-
-!mutelist
-Returns list of muted users in chat
-
-!banlist
-Returns SuperGroup ban list
-
-!clean [rules|about|modlist|mutelist]
-
-!del
-Deletes a message by reply
-
-!public [yes|no]
-Set chat visibility in pm !chats or !chatlist commands
-
-!res [username]
-Returns users name and id by username
-
-
-!log
-Returns group logs
+💢#mutelist
+لیست افراد مات شده
+💢#banlist
+لیست بن شده های سوپرگروه
+#clean [rules|about|modlist|mutelist]
+پاک کردن موارد بالا
+💢#del
+پاک کردن پیامی با ریپلای
+💢#public [yes|no]
+تنظیم قابل مشاهده بودن چت ها
+💢#res [username]
+دریافت نام و آیدی نام کاربری موردنطر
+💢#log
+دریافت لوگ گروه
 *Search for kick reasons using [#RTL|#spam|#lockmember]
-
-**You can use "#", "!", or "/" to begin all commands
-
-*Only owner can add members to SuperGroup
-(use invite link to invite)
-
-*Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
-
-*Only owner can use res, setowner, promote, demote, and log commands
+سرچ کردن موارد بالا
+دیگر دستورات :
+💢#vc [text]
+💢#tosticker
+💢#tophoto
+💢#webshot [url]
+💢#qr [text|link]
+💢#echo [text]
+💢#reqgp
+💢#insta [id|video/photo link]
+💢#tosupport
+💢#version
+💢#inv
+* * شما می‌توانید از "#" , "!" , "/"  و یا " / " برای همه فرمان‌ها استفاده كنيد.
+* فقط admins و sudo می‌توانند كه ربات هايي را در گروه ادد كنند.
+* فقط admins و sudo می‌تواند از ممنوعیت ، unban ، newlink ، setphoto ، setname ، قفل كردن و بازكردن ، تنظيم قوانین و تنظيم توضيحات و درباره و تظيمات دستور ها استفاده كنند.
+* فقط admins و sudo می‌توانند از  فرمان‌های setowner ، و اطلاعات يوزر موردنظر و دستورات خاص استفاده كنند.
+❌ ❌ ❌ ❌ ❌ ❌ ❌ ❌ ❌ ❌ 
+🔰Spiran_TG🔰@SPIRAN_CHANNEL
+FOLLOW US...
+SPIRAN TEAM😘
 
 ]],
   }
