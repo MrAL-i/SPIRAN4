@@ -394,133 +394,99 @@ SPIRAN TEAM😘
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
-
-!kick [username|id]
-You can also do it by reply
-
-!ban [ username|id]
-You can also do it by reply
-
-!unban [id]
-You can also do it by reply
-
-!who
-Members list
-
-!modlist
-Moderators list
-
-!promote [username]
-Promote someone
-
-!demote [username]
-Demote someone
-
-!kickme
-Will kick user
-
-!about
-Group description
-
-!setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
-!rules
-Group rules
-
-!id
-return group id or user id
-
-!help
-Returns help text
-
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Lock group settings
+راهنمای دستورات :
+#kick [نام کاربری|آیدی]
+شما می توانید با ریپلای کردن هم انجام دهید.
+#who
+لیست افراد
+#modlist
+لیست مدبران
+#promote [نام کاربری]
+ترفیع فردی
+#demote [نام کاربری]
+تنزل فردی
+#kickme
+مرا اخراج کن
+#about
+توضیحات گروه
+#setname [name]
+تنظیم نام گروه
+#rules
+قوانین گروه
+#id
+دریافت آیدی گروه و یا آیدی فردی
+#help
+دریافت متن راهنما
+#lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+قفل کردن تنظیمات بالا
 *rtl: Kick user if Right To Left Char. is in name*
-
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Unlock group settings
+#unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+باز کردن قفل تنظیمات بالا
 *rtl: Kick user if Right To Left Char. is in name*
-
-!mute [all|audio|gifs|photo|video]
-mute group message types
+#mute [all|audio|gifs|photo|video]
+مات یا سایلنت کردن موارد بالا
 *If "muted" message type: user is kicked if message type is posted 
-
-!unmute [all|audio|gifs|photo|video]
-Unmute group message types
+#unmute [all|audio|gifs|photo|video]
+آنمات کردن موارد بالا
 *If "unmuted" message type: user is not kicked if message type is posted 
-
-!set rules <text>
-Set <text> as rules
-
-!set about <text>
-Set <text> as about
-
-!settings
-Returns group settings
-
-!muteslist
-Returns mutes for chat
-
-!muteuser [username]
-Mute a user in chat
+#set rules <text>
+تنظیم قوانین گروه
+#set about <text>
+تنظیم درباره ی گروه
+#settings
+تنظیمات
+#muteslist
+دریافت چیز های مات شده
+#muteuser [username]
+مات فردی در چت
 *user is kicked if they talk
 *only owners can mute | mods and owners can unmute
-
-!mutelist
-Returns list of muted users in chat
-
-!newlink
-create/revoke your group link
-
-!link
-returns group link
-
-!owner
-returns group owner id
-
-!setowner [id]
-Will set id as owner
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-
-!save [value] <text>
-Save <text> as [value]
-
-!get [value]
-Returns text of [value]
-
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-returns user id
+#mutelist
+لیست افراد مات شده در چت
+#newlink
+ساخت یا تعویض لینک گروه
+#link
+دریافت لینک گروه
+#owner
+دریافت آیدی صاحب گروه
+#setowner [آیدی]
+تنظیم آیدی به عنوان صاحب گروه
+#setflood [value]
+تنظیم حساسیت فلود
+#stats
+پیام ساده آمار
+#save [value] <text>
+تنظیم متن موردنظر به عنوان نوشته اضافی
+#get [value]
+دریافت متن نوشته اضافی
+#clean [modlist|rules|about]
+پاک کردن موارد بالا
+#res [نام کاربری]
+دریافت آیدی فردی
 "!res @username"
+#log
+دریافت لوگ گروه
+#banlist
+دریافت لیست بن شده ها
+دیگر دستورات :
+#vc [text]
+#tosticker
+#tophoto
+#webshot [url]
+#qr [text|link]
+#echo [text]
+#reqgp
+#insta [id|video/photo link]
+#tosupport
+#version
+* * شما می‌توانید از "#" , "!" , "/"  و یا " / " برای همه فرمان‌ها استفاده كنيد.
+* فقط admins و sudo می‌توانند كه ربات هايي را در گروه ادد كنند.
+* فقط admins و sudo می‌تواند از ممنوعیت ، unban ، newlink ، setphoto ، setname ، قفل كردن و بازكردن ، تنظيم قوانین و تنظيم توضيحات و درباره و تظيمات دستور ها استفاده كنند.
+* فقط admins و sudo می‌توانند از  فرمان‌های setowner ، و اطلاعات يوزر موردنظر و دستورات خاص استفاده كنند.
 
-!log
-Returns group logs
-
-!banlist
-will return group ban list
-
-**You can use "#", "!", or "/" to begin all commands
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
-
+🔰Spiran_TG🔰@SPIRAN_CHANNEL
+FOLLOW US...
+SPIRAN TEAM😘
 ]],
 	help_text_super =[[
 SuperGroup Commands:
